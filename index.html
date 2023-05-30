@@ -10,12 +10,14 @@
   </head>
 
   <body>
-    <div>
-      <h1>Generate a<br /><span>Random Password</span></h1>
+    <div class="wrapper">
+      <h1 class="title">Generate a<br /><span class="color-title">Random Password</span></h1>
       <h2>Never use an insecure password again</h2>
       <button id="passwordBtn">Generate passwords</button>
-      <input type="text" id="passwordOne" disabled readonly />
-      <input type="text" id="passwordTwo" disabled readonly />
+      <div class="input-wrappers">  
+        <input type="text" class="password" id="passwordOne" disabled readonly />
+        <input type="text" class="password" id="passwordTwo" disabled readonly />
+      </div>
     </div>
 
     <script src="index.js"></script>

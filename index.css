@@ -1,3 +1,30 @@
 body {
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    background-color: green;
+    padding: 0px;
+    margin: auto 20px;
+
+}
+
+.title {
+    color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.passwordBtn {
+
+}
+
+.password {
+    text-align: center;
+    background-color: white;
+
 }
