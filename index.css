@@ -1,13 +1,20 @@
 body {
-    padding: 0px;
-    margin: 0px;
+    margin: 0px auto;
+    background-color: #1C1C1C;
 }
 
 .wrapper {
-    background-color: green;
-    padding: 0px;
-    margin: auto 20px;
+    background-color: #ECFDF5;
+    padding-left: 52px;
+    padding-top: 115px;
+    margin: 0 auto;
+    height: 550px;
+    width: 550px;
+}
 
+.color-title {
+    display: block;
+    color: #10B981;
 }
 
 .title {
@@ -15,16 +22,45 @@ body {
     font-size: 40px;
 }
 
-h2 {
-    font-size: 20px;
+h1 {
+    margin-bottom: 15px;
+    font-family: 'Karla', sans-serif;
+    color: #2B283A;
+    font-size: 40px;
+    line-height: 40px;
 }
 
-.passwordBtn {
+h2 {
+    font-size: 20px;
+    color: #6B7280;
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
 
+#passwordBtn, .password {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#passwordBtn {
+    background-color: #10B981;
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 16px;
 }
 
 .password {
     text-align: center;
-    background-color: white;
-
+    background-color: #273549;
+    margin-top: 70px;
+    margin-right: 25px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 15px;
+    color: #5DEF92;
 }
