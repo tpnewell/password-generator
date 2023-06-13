@@ -1,20 +1,29 @@
+html {
+    height: 100%; 
+}
+
 body {
-    margin: 0px auto;
     background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 
 .wrapper {
     background-color: #ECFDF5;
-    padding-left: 52px;
-    padding-top: 115px;
-    margin: 0 auto;
     height: 550px;
     width: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 
 .color-title {
     display: block;
     color: #10B981;
+    padding-left: 0px;
 }
 
 .title {
@@ -57,10 +66,22 @@ h2 {
 .password {
     text-align: center;
     background-color: #273549;
-    margin-top: 70px;
-    margin-right: 25px;
+    margin-top: 50px;
     border-radius: 5px;
     border: none;
     padding: 10px 15px;
     color: #5DEF92;
+    max-width: 211px;
+    
+}
+
+.inside-wrapper {
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+.input-wrappers {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
 }
