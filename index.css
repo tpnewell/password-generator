@@ -15,7 +15,7 @@ body {
     height: 550px;
     width: 550px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -66,22 +66,26 @@ h2 {
 .password {
     text-align: center;
     background-color: #273549;
-    margin-top: 50px;
     border-radius: 5px;
     border: none;
     padding: 10px 15px;
     color: #5DEF92;
-    max-width: 211px;
+    width: 180px;
     
 }
 
 .inside-wrapper {
-    padding-left: 54px;
-    padding-right: 54px;
+    padding: 0px 54px;
 }
 
 .input-wrappers {
     display: flex;
-    justify-content: space-evenly;
     gap: 24px;
+}
+
+hr {
+    height: 1px;
+    border: none;
+    background-color: #D5D4D8;
+    margin: 30px 0px;
 }
