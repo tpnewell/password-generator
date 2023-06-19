@@ -4,3 +4,5 @@ Upon clicking "Generate password" button, a random password is generated.
 ### Technologies Used
 Vanilla HTML & CSS\
 JavaScript
+## Deployed site: 
+https://fluffy-muffin-0ecf56.netlify.app/
